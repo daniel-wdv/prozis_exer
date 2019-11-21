@@ -1,0 +1,39 @@
+    @import url(font-awesome.min.css);
+    @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+    /* Banner */
+    
+    #banner {}
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .imgbox {
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .center-fit {
+        max-width: 100%;
+        max-height: 105vh;
+        margin: auto;
+    }
+    
+    .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .image2 {
+        position: absolute;
+        top: 70px;
+        left: 170px;
+        max-width: 450px !important;
+    }
+    
+    .container {
+        position: relative;
+    }
